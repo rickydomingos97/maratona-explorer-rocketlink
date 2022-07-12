@@ -19,6 +19,21 @@ img.avatar {
   border: 4px solid #4263EB
 
 }
+
+h1.name-profile {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #00082F;
+  font-size: 2rem;
+}
+
+p.social-media {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #00082;
+  opacity: 0.8;
+}
+
 .container {
   text-align: center;
   width: 300px;
@@ -34,18 +49,6 @@ ul {
   margin: 48px 0;
 }
 
-h1.name-profile {
-  margin-top: 24px;
-  margin-bottom: 8px;
-  color: #00082F
-}
-
-p.social-media {
-  font-weight: 400;
-  color: #00082;
-  opacity: 80%;
-}
-
 ul li a {
   height: 53px;
   display: flex;
@@ -57,13 +60,22 @@ ul li a {
   margin-bottom: 1rem;
   border-radius: 6px;
   font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
 
+  transition: background 400ms
+
+}
+
+ul li a:hover {
+  background: #00082F;
 }
 
 footer {
   font-weight: 300;
+  font-size: 12px;
   color: #00082F;
-  opacity: 60%
+  opacity: 0.6
 }
 
 .heart {

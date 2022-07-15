@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none
+}
+
 html {
   --bg-color: #EDF2FF;
   --text-color: #00082F;
@@ -61,7 +65,6 @@ ul li a {
   align-items: center;
   justify-content: center;
   background-color: var(--bg-color-links);
-  text-decoration: none;
   color: var(--bg-color);
   margin-bottom: 1rem;
   border-radius: 6px;

@@ -7,14 +7,20 @@
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: #fff
 }
 
 html {
   --bg-color: #EDF2FF;
   --text-color: #00082F;
-  --background-hover: #364FC7;
   --bg-color-links: #4263EB;
+}
+
+body.dark {
+   --bg-color: #00082F;
+   --text-color: #FFFFFF;
+   --bg-hover: #364FC7;
 }
 
 body {
@@ -64,8 +70,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bg-color-links);
-  color: var(--bg-color);
+  background: var(--bg-color-links);
   margin-bottom: 1rem;
   border-radius: 6px;
   font-weight: bold;
@@ -77,7 +82,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: var(--background-hover);
+  background: var(--bg-hover);
 }
 
 footer {

@@ -19,6 +19,13 @@ html {
   --primary-color-dark: #364FC7;
 }
 
+body.neo {
+  --bg-color: #ECF0F3;
+  --text-color: #272B30;
+  --primary-color: #272B30;
+  --primary-color-dark: #a61e4d;
+}
+
 body.dark {
    --bg-color: #00082F;
    --text-color: #FFFFFF;

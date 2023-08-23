@@ -132,14 +132,17 @@ ul li a:hover {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  font-weight: 300;
+  justify-content: center;
+
+  font-weight: 700;
+  line-height: 10px;
+  spacing: 5px;
   font-size: 12px;
   color: var(--text-color);
   opacity: 0.6;
 }
 
-.heart {
-  width: 20px;
-  color: #a61e4d;
+.heart-logo {
+  width: 16px;
+  margin: 0 .5rem;
 }

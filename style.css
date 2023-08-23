@@ -132,17 +132,28 @@ ul li a:hover {
 footer {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center;
 
   font-weight: 700;
   line-height: 10px;
   spacing: 5px;
+=======
+  justify-content: space-around;
+  font-weight: 300;
+>>>>>>> b11edc3aa57cca3b28719be28fabf62363ed2ef7
   font-size: 12px;
   color: var(--text-color);
   opacity: 0.6;
 }
 
+<<<<<<< HEAD
 .heart-logo {
   width: 16px;
   margin: 0 .5rem;
+=======
+.heart {
+  width: 20px;
+  color: #a61e4d;
+>>>>>>> b11edc3aa57cca3b28719be28fabf62363ed2ef7
 }

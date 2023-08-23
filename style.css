@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -8,50 +8,67 @@
 
 a {
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
 
 html {
-  --bg-color: #EDF2FF;
-  --text-color: #00082F;
-  --bg-color-links: #4263EB;
-  --primary-color: #4263EB;
-  --primary-color-dark: #364FC7;
+  --bg-colordark: #1e1f28;
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --bg-color-links: #4263eb;
+  --primary-color: #4263eb;
+  --primary-color-dark: #364fc7;
+  --bg-color-links-dark: #1e1f28;
+  --primary-color-dark: #a61e4d;
 }
 
 body.neo {
-  --bg-color: #ECF0F3;
-  --text-color: #272B30;
-  --primary-color: #272B30;
+  --bg-colordark: #1e1f28;
+  --bg-color: #ecf0f3;
+  --text-color: #272b30;
+  --primary-color: #272b30;
   --primary-color-dark: #a61e4d;
 }
 
 body.dark {
-   --bg-color: #00082F;
-   --text-color: #FFFFFF;
-   --bg-hover: #364FC7;
+  --bg-color: #1e1f28;
+  --text-color: #fff;
 
+  /*
+    --bg-color: #1e1f28;
+  --text-color: #ffffff;
+  --bg-hover: #364fc7;
+  --bg-color-links-dark: #1e1f28;
+  */
+}
+
+body.dark a {
+  border-radius: 4px;
+  background: #9333EA;
+}
+
+body.dark a:hover {
+  background-color: #A855F7;
 }
 
 body.pink {
-  --bg-color: #FFF0F6;
-  --text-color: #1F000B;
-  --primary-color: #D6336C;
+  --bg-color: #fff0f6;
+  --text-color: #1f000b;
+  --primary-color: #d6336c;
   --primary-color-dark: #a61e4d;
-
 }
 
 body.dark-pink {
-  --bg-color: #1F000B;
-  --text-color: #FFFFFF;
-  --primary-color: #D6336C;
-  --primary-color-dark: #A61E4D;
+  --bg-color: #1f000b;
+  --text-color: #ffffff;
+  --primary-color: #d6336c;
+  --primary-color-dark: #a61e4d;
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 img.avatar {
@@ -59,8 +76,11 @@ img.avatar {
   height: 100px;
   border-radius: 50%;
   padding: 3.7px;
-  border: 4px solid var(--primary-color)
+  border: 4px solid var(--primary-color);
+}
 
+body.dark img.avatar {
+  border: 4px solid var(--primary-color-dark);
 }
 
 h1.name-profile {
@@ -82,7 +102,7 @@ p.role {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 ul {
@@ -98,12 +118,11 @@ ul li a {
   background: var(--primary-color);
   margin-bottom: 1rem;
   border-radius: 6px;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 1rem;
   text-transform: uppercase;
 
-  transition: background 400ms
-
+  transition: background 400ms;
 }
 
 ul li a:hover {
@@ -111,12 +130,16 @@ ul li a:hover {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   font-weight: 300;
   font-size: 12px;
   color: var(--text-color);
-  opacity: 0.6
+  opacity: 0.6;
 }
 
 .heart {
-  color: red;
+  width: 20px;
+  color: #a61e4d;
 }

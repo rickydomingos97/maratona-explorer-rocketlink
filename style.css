@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Sora:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -40,6 +40,8 @@ body.white {
   --text-secondaty: rgba(10, 0, 57, 0.64);
   //--primary-color: #272b30;
   //--primary-color-dark: #a61e4d;
+  
+  font-family: "Sora", sans-serif;
 }
 
 body.white a {
@@ -52,12 +54,13 @@ body.white a img {
   width: 40px;
 }
 
-ul li a .europa  {
+ul li a .white {
   width: 100px;
   height: 100px;
   border-radius: 30px;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
 }
 
 body.dark {
@@ -123,6 +126,7 @@ p.role {
   font-weight: 400;
   font-size: 1.1rem;
   opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {

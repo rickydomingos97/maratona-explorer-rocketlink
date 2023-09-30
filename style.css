@@ -30,6 +30,36 @@ body.neo {
   --primary-color-dark: #a61e4d;
 }
 
+body.white {
+  --bg-site: #ece9fd;
+  --button: #5627ff;
+
+  --bg-colordark: #1e1f28;
+  --bg-color: #ecf0f3;
+  --text-color: #090039;
+  --text-secondaty: rgba(10, 0, 57, 0.64);
+  //--primary-color: #272b30;
+  //--primary-color-dark: #a61e4d;
+}
+
+body.white a {
+  border-radius: 4px;
+  background: #5627ff;
+  border-radius: 0.8rem;
+}
+
+body.white a img {
+  width: 40px;
+}
+
+ul li a .europa  {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 body.dark {
   --bg-color: #1e1f28;
   --text-color: #fff;
@@ -44,11 +74,11 @@ body.dark {
 
 body.dark a {
   border-radius: 4px;
-  background: #9333EA;
+  background: #9333ea;
 }
 
 body.dark a:hover {
-  background-color: #A855F7;
+  background-color: #a855f7;
 }
 
 body.pink {
@@ -123,6 +153,8 @@ ul li a {
   text-transform: uppercase;
 
   transition: background 400ms;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 ul li a:hover {
@@ -144,5 +176,5 @@ footer {
 
 .heart-logo {
   width: 16px;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
